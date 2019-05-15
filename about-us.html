@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Final Presentation</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<style>
+			/* CSS goes here, at the top of the page */
+			@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+			@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+			h1, h2, h4, h5, h6 {
+				font-family: 'PT Sans', 'Helvetica', 'Arial';;
+			}
+
+			html, body {
+				margin: 0;
+				padding: 0;
+				font-family: 'PT Serif', 'Helvetica', 'Arial';
+			}
+			#top-bar {
+				width: 100%;
+				background: #F1F1F1; /* light gray */
+				border-bottom: 1px solid #e05f14; /* dark gray "underline" */
+				height: 25px;
+			}
+			.normal-wrapper {
+				width: 900px;
+				margin: 0 auto;
+				padding: 15px 40px;
+				overflow: auto;
+			}
+			.logo-icon {
+				color: #000000;
+				font-size: 60pt;
+				float: left;
+			}
+			h1 {
+				float: left;
+				margin: 21px 0 0 25px;
+			}
+			#navbar {
+			    list-style-type: none; /* remove bullet points */
+			    margin: 29px 0 0 0;
+			    padding: 0;
+			    float: right;
+			    font-size: 16pt;
+			}
+			#navbar li {
+			    display: inline; /* make items horizontal */
+			}
+			#navbar li a:link, #navbar li a:visited, #navbar li a:active {
+				text-decoration: none; /* remove underline */
+				color: #000000;
+				padding: 0 16px 0 10px; /* space links apart */
+				margin: 0;
+				border-right: 2px solid #a91ad8; /* divider */
+			}
+			#navbar li a:link.last-link {
+				/* remove divider */
+				border-right: 0px;
+			}
+			#navbar li a:hover {
+				/* change color on hover (mouseover) */
+				color: #e05f14;
+			}
+			#top-color-splash {
+				width: 100%;
+				height: 4px;
+				background: #a91ad8;
+			}
+			.one-third {
+				width: 40%;
+				float: left;
+				box-sizing: border-box; /* ensure padding and borders do not increase the size */
+				margin-top: 20px;
+			}
+			.two-third {
+				width: 60%;
+				float: left;
+				box-sizing: border-box; /* ensure padding and borders do not increase the size */
+				padding-left: 40px;
+				text-align: right;
+				margin-top: 20px;
+			}
+			.featured-image {
+				max-width: 500px; /* reduce image size while maintaining aspect ratio */
+			}
+			.no-margin-top {
+				margin-top: 0; /* remove margin on things like headers */
+			}
+			#divider-area {
+				width: 100%;
+				border-bottom: 4px solid #e05f14;
+				height: 75px;
+			}
+			h3 {
+				font-weight: normal;
+				font-size: 20pt;
+				margin-top: 0px;
+			}
+			h4 {
+				font-weight: normal;
+				font-size: 16pt;
+				margin-bottom: 0;
+			}
+
+			#footer {
+				width: 100%;
+				background: #F1F1F1; /* light gray */
+				border-top: 1px solid #a91ad8; /* dark gray "topline" */
+				height: 50px;
+			}
+			.hidden {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="top-bar"></div>
+
+		<div class="normal-wrapper">
+			<div id="logo-container">
+			<h1>Final Presentation<h1>
+			</div>
+			<!--   menu -->
+			<ul id="navbar">
+				<li><a href="index.html">Brief Description</a></li>
+				<li><a href="tri-tech.html">Tri-Tech</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="career.html" class="last-link">Career</a></li>
+			</ul>
+<!--   end of menu -->
+		</div>
+		<div id="top-color-splash"></div>
+		<div class="normal-wrapper">
+			<div class="one-two">
+				<h2 class="no-margin-top">About Us</h2>
+				<h4>Esperanza</h4>
+				<p>I have a thing for technology. I never knew what I wanted to do after highschool,
+					now I do. This class has taught me a lot and I am very appreciative for Mr. Coleman
+					being able to deal with all of the teenagers in his class. My hobby, when I'm not on a
+					computer, is gaming. I was so happy at my first accomplishment in Cyber Security, it was
+					building a PC. I didn't think I was going to like doing anything as a career but now that
+					I know that I love working with technology, my world has changed.</p>
+			</div>
+			<div class="two-third">
+			</div>
+		</div>
+		<div id="divider-area">
+			<div class="normal-wrapper">
+			</div>
+		</div>
+		<div class="normal-wrapper">
+			<div class="one-two">
+				<h4 class="no-margin-top">Mason</h4>
+				<p>It’s been really nice to be able to actually learn and apply coding this year.
+					I’ve always wanted to learn how to do this kind of stuff, so it was really great
+					to figure out what parts of it i’m good at.</p>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>
